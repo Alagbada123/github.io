@@ -47,10 +47,9 @@ body {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 20px 10%;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    padding: 20px 10%;
 }
 
 .navbar.sticky {
@@ -530,18 +529,21 @@ nav .fas {
         padding-top: 80px;
         transition: all 0.3s ease;
     }
+
     .navbar .menu.active {
         left: 0;
     }
+
     .navbar .menu li {
         display: block;
     }
+
     .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-    
+
     .header-text {
         margin-top: 70%;
         font-size: 16px;
@@ -606,6 +608,117 @@ nav .fas {
     }
 
     .copyright {
+        font-size: 14px;
+    }
+}
+
+/* Additional Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .header-text {
+        margin-top: 60%;
+        font-size: 14px;
+    }
+
+    .header-text h1 {
+        font-size: 18px;
+    }
+
+    .text-2 {
+        font-size: 50px;
+    }
+
+    .text-3 {
+        font-size: 30px;
+    }
+
+    .about-col-1 img {
+        border-radius: 10px;
+    }
+
+    .services-list div {
+        padding: 20px;
+    }
+
+    .services-list div i {
+        font-size: 40px;
+    }
+
+    .services-list div h2 {
+        font-size: 24px;
+    }
+
+    .services-list div p {
+        font-size: 14px;
+    }
+
+    .work img {
+        border-radius: 8px;
+    }
+
+    .layer {
+        padding: 0 20px;
+    }
+
+    .layer h3 {
+        font-size: 18px;
+    }
+
+    .layer a {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-text {
+        margin-top: 50%;
+        font-size: 12px;
+    }
+
+    .header-text h1 {
+        font-size: 16px;
+    }
+
+    .text-2 {
+        font-size: 40px;
+    }
+
+    .text-3 {
+        font-size: 25px;
+    }
+
+    .about-col-1 img {
+        border-radius: 5px;
+    }
+
+    .services-list div {
+        padding: 15px;
+    }
+
+    .services-list div i {
+        font-size: 35px;
+    }
+
+    .services-list div h2 {
+        font-size: 20px;
+    }
+
+    .services-list div p {
+        font-size: 12px;
+    }
+
+    .work img {
+        border-radius: 5px;
+    }
+
+    .layer h3 {
+        font-size: 16px;
+    }
+
+    .layer a {
+        width: 40px;
+        height: 40px;
         font-size: 14px;
     }
 }
